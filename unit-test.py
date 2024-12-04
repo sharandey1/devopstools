@@ -24,15 +24,15 @@ def divide_numbers(a,b):
     return a/b
 class TestDivideNumbers(unittest.TestCase):
     def test_divide_numbers(self):
-        result = divide_numbers(2,3)
-        self.assertEqual(result,5)
+        result = divide_numbers(6,3)
+        self.assertEqual(result,2)
 
 def add_numbers2(a,b):
     return a+b
 class TestAddNumbers(unittest.TestCase):
     def test_add_numbers2(self):
         result = add_numbers2(2,3)
-        self.assertEqual(result,6)
+        self.assertEqual(result,5)
 
 if __name__=='__main__':
     unittest.main()
